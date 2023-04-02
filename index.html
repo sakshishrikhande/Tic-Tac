@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe Game</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    td {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 60px;
+      font-weight: bold;
+      border: 1px solid black;
+    }
+    #message {
+      margin: 20px auto;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    #restart {
+      margin: 20px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tic Tac Toe Game</h1>
+  <table id="board">
+    <tr>
+      <td id="0"></td>
+      <td id="1"></td>
+      <td id="2"></td>
+    </tr>
+    <tr>
+      <td id="3"></td>
+      <td id="4"></td>
+      <td id="5"></td>
+    </tr>
+    <tr>
+      <td id="6"></td>
+      <td id="7"></td>
+      <td id="8"></td>
+    </tr>
+  </table>
+  <div id="message"></div>
+  <div id="restart">
+    <button onclick="restart()">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
